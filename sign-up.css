@@ -1,0 +1,65 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#appointment-form{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    
+}
+
+#appointmentDate{
+
+background-color: yellow;
+
+}
+
+
+form{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+    
+
+}
+.form-group{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.cancelbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 100px;
+    /* color: blue; */
+    background-color: yellowgreen;
+
+  }    

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="Admin" class="tabcontent">
+      <div class="image">
+        <img src="images.jpg" alt="Italian Trulli" />
+      </div>
+      <p>
+        welcome to the Administrative page
+        <a href="Admin-log-in.html"> log in here</a>
+      </p>
+    </div>
+
+    <div id="doctor" class="tabcontent">
+      <div class="image">
+        <img src="Doctor-image.jpg" alt="Italian Trulli" />
+      </div>
+
+      <p>welcome to the health-workers page click here to <a href="Health-workers-login.html"> log-in</a> </p>
+
+
+    </div>
+
+    <div id="patient" class="tabcontent">
+      <div class="image">
+        <img src="patient-image.png" alt="Italian Trulli" />
+      </div>
+
+      <p>welcome to the patient page. book an appointment <a href="sign-up.html"> here </a> </p>
+    </div>
+
+    <div id="customers" class="tabcontent">
+      <div class="image">
+        <img src="customer-care-image.png" alt="Italian Trulli" />
+      </div>
+
+      <p>welcome to our care service.</p>
+      <a href="FAQ.html"> FAQ</a>
+    </div>
+
+    <button
+      class="tablink"
+      onclick="openDepartment('Admin', this, 'blue')"
+      id="Open"
+    >
+      Admin
+    </button>
+    <button class="tablink" onclick="openDepartment('doctor', this, 'green')">
+      Doctor
+    </button>
+    <button class="tablink" onclick="openDepartment('patient', this, 'blue')">
+      patient
+    </button>
+    <button class="tablink" onclick="openDepartment('customers', this, 'orange')">
+      customer care service
+    </button>
+
+    <div class="background">
+      <img src="download.png" alt="Italian Trulli" />
+
+      <font size="5px"> HOPE MEDICAL HOSPITAL  Care About Your Health </font>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

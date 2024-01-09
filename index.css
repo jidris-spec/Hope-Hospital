@@ -1,0 +1,68 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: yellowgreen;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 5px;
+  text-align: center;
+  border: 10px;
+}
+
+.tabcontent h1 {
+  color: black;
+}
+
+#Admin {
+  background-color: blueviolet;
+  size: 50px;
+}
+#Admin p {
+  color: black;
+}
+.image img {
+  width: 100px; /* Set your desired width */
+  height: 80; /* Maintain aspect ratio */
+}
+
+#doctor {
+  background-color: yellow;
+}
+#doctor p {
+  color: black;
+}
+
+
+#patient {
+  background-color: blueviolet;
+}
+
+#customers {
+  background-color: purple;
+}
+
+.background img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}

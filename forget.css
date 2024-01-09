@@ -1,0 +1,48 @@
+/* Styles for the container */
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles for the input field and label */
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles for the button */
+button {
+  background-color:yellowgreen;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Styles for the paragraph */
+p {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 4px 6px;
+    background-color: #f44336;
+}
